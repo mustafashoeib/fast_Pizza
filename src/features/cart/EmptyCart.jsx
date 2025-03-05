@@ -2,12 +2,12 @@ import LinkButton from '../../ui/LinkButton';
 
 function EmptyCart() {
   return (
-    <div className=" px-4 py-3">
+    <div className="px-4 py-3">
       <LinkButton to="/menu">&larr; Back to menu</LinkButton>
 
-      <div className="flex flex-col items-center mt-3">
+      <div className="mt-3 flex flex-col items-center">
         <img
-          src="public/7612.jpg"
+          src="/images/7612.jpg"
           alt="empty cart"
           className="w-full max-w-xs rounded-lg object-cover shadow-lg md:max-w-md lg:max-w-lg xl:max-w-xl"
         />
